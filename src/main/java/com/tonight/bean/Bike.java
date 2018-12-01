@@ -19,6 +19,7 @@ public class Bike {
 
 
     String prname;
+    String author;
 
     @Override
     public String toString() {
@@ -87,5 +88,13 @@ public class Bike {
 
     public void setPrname(String prname) {
         this.prname = prname;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 }
