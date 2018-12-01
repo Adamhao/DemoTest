@@ -19,7 +19,7 @@ public class Bike {
 
 
     String prname;
-    String author;
+    String authors;
 
     @Override
     public String toString() {
@@ -91,10 +91,10 @@ public class Bike {
     }
 
     public String getAuthor() {
-        return author;
+        return authors;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setAuthor(String authors) {
+        this.authors = authors;
     }
 }
